@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+body {
+	margin-bottom: 24px;
+	padding: 30px;
+	background: rgb(197, 193, 193);
+}
+#root{
+	padding: 30px;
+	background: #fff;
+	border-radius: 5px;
+	max-width: 500px;
+	margin:0 auto;
+}
+#root #screenBlock {
+	display:flex;
+	margin-bottom: 24px;
+
+}
+
+#root #app-form #screenBlock input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px 0px 0px 5px;
+	width: 100%;
+}
+
+#root #app-form #screenBlock #screenAddBtn {
+	background: #1a90d2;
+	color: #fff;
+	border: none;
+	background: #1a91d2;
+	border-radius: 0px 5px 5px 0px;
+	padding: 0px 8px;
+	cursor: pointer;
+	border-radius: 0px 5px 5px 0px;
+	color: #fff;
+	border: none;
+}
+
+#listsBlock .listsBlockItem{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+#root #listsBlock .listsBlockItem .listsBlockItemContent span {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#root #listsBlock .listsBlockItem .listsBlockItemContent input {
+	border: 1px solid transparent;
+	padding: 7px 9px;
+	border-radius: 5px;
+}
+
+#root #listsBlock .listsBlockItem .listsBlockItemContent input.edit {
+	border-color: #ccc;
+}
+
+#root #listsBlock .listsBlockItem .buttons button {
+	padding: 8px 12px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	transition: background 0.3s;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+
+#root #listsBlock .listsBlockItem .buttons .removeBtn{
+	background: #f00900;
+}
+
+#root #listsBlock .listsBlockItem .buttons .editBtn{
+	background: #ffc000;
+}
+
+#root #listsBlock .listsBlockItem .buttons .saveBtn{
+	display: none;
+	background: #d900ff;
+}
+
+#root #listsBlock .listsBlockItem .buttons .removeBtn:hover {
+	background: #d41507;
+}
+
+#root #listsBlock .listsBlockItem .buttons .editBtn:hover {
+	background: #efb403;
+}
+
+#root #listsBlock .listsBlockItem .buttons .saveBtn:hover {
+	background: #c311e2;
+}
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 12px;
+	text-align: center;
+	color: #555;
+	letter-spacing: 1.5px;	
+	letter-spacing: 1.5px;
+}
+
+p {
+	margin-bottom: 12px;
+	text-align: center;
+	color: #566;
+}
+.succeed {
+	background: rgb(107, 212, 3);
+	padding: 8px 12px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	transition: background 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.succeed:hover{
+	background: rgb(78, 154, 2);
+}
